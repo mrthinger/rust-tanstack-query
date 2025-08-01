@@ -1,0 +1,24 @@
+{
+  "name": "tsdst_rst",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "genapi": "openapi-typescript ./api.json -o ./ts/api.d.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "openapi-fetch": "^0.14.0",
+    "openapi-react-query": "^0.5.0",
+    "react": "^19.1.1"
+  }
+}
